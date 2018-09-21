@@ -2,13 +2,20 @@
 
 ## Things to include in your README
 
-* Your name. Indicate if you go by a nickname.
+* My Name!
+
+   ***Angelo De Laurentis.***
+
+   **I go by my first name Angelo :)**
+
 * Status of your lab
-  * Complete, partially complete, incomplete
-  * If not complete, what does work? What doesn't?
+
+   **This Lab is Complete**
+
 * Compilation and execution instructions
-  * `gcc -o piku piku.s` or `make`
-  * `./piku`
+  **gcc -o piku piku.s**
+  **./piku**
+
 * Issues that you encountered along the way, and anything you have questions about.
 
 These README files have a fairly rich _Markdown_ environment. You should use

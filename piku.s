@@ -8,7 +8,13 @@ main:
     push    {ip, lr}
 
     @ Load the argument and perform the call. This is like 'printf("...")' in C.
-    ldr     r0, =message
+    ldr     r0, =message1
+    bl      printf
+
+    ldr     r0, =message2
+    bl      printf
+
+    ldr     r0, =message3
     bl      printf
 
     @ Exit from 'main'. This is like 'return 0' in C.
@@ -22,3 +28,14 @@ main:
     @ automatically adds a NULL character termination.
 message:
     .asciz  "Hello, world.\n"
+
+message1:
+   .asciz "good raspberry pi\n"
+
+message2:
+   .asciz "I like raspberry pis now\n"
+
+message3:
+   .asciz "raspberry pis rock\n"
+
+
